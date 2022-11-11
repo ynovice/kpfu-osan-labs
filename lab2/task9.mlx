@@ -1,0 +1,9 @@
+x = 1 : 1 : 20000;
+
+y = exp(x);
+
+subplot(2, 1, 1)
+plot(x, y, 'r-.')
+
+subplot(2, 1, 2)
+semilogy(x, y, 'b-.')

@@ -1,0 +1,6 @@
+x = 0 : 0.01 : 2*pi;
+
+f = 8 * sin(x);
+r = cos(2*x);
+
+polarplot(f,r)

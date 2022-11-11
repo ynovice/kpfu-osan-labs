@@ -1,0 +1,4 @@
+x = 0 : 20;
+y = factorial(x);
+semilogy(x, y);
+grid on;

@@ -1,0 +1,7 @@
+x = -5 : 0.001 : 5;
+
+y = exp(-x).*sin(10*x);
+
+figure
+plot(x, y, 'r-.')
+title("Function graph")

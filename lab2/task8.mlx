@@ -1,0 +1,10 @@
+	x = 1 : 1 : 5000;
+
+	f = log(0.5*x);
+	g = sin(log(x));
+
+	semilogx(x, f);
+	hold on
+	semilogx(x, g)
+
+	legend('f = log(0.5*x)', 'g = sin(log(x))', 'Location', 'northeast');

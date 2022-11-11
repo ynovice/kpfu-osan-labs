@@ -1,0 +1,12 @@
+x = -5 : 0.001 : 5;
+
+y1 = exp(-x).*sin(10*x);
+
+plot(x, y1, 'r-.')
+hold on
+
+y2 = sin(10*x);
+
+plot(x, y2, 'b-.')
+
+legend('y1 = exp(-x).*sin(10*x)','y2 = sin(10*x', 'Location','northeast')
