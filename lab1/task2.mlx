@@ -1,0 +1,21 @@
+A = randi([200 299], 2, 2);
+disp('A:')
+disp(A)
+
+B = randi([300 399], 3, 3);
+disp('B:')
+disp(B)
+
+C = randi([400 499], 4, 4);
+disp('C:')
+disp(C)
+
+D = randi([500 599], 5, 5);
+disp('D:')
+disp(D)
+
+E = randi([600 699], 6, 6);
+disp('E:')
+disp(E)
+
+spy(blkdiag(A, B, C, D, E));
