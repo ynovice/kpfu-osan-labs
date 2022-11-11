@@ -1,0 +1,10 @@
+n = 3;
+fprintf('n = %d\n\n', n)
+
+x = 1:4;
+disp('Vector x:')
+disp(x)
+
+v = repelem(x, n);
+disp('Result vector:')
+disp(v)
